@@ -3,7 +3,7 @@ import sys
 f=open(sys.argv[1])
 h=open(sys.argv[3],'w')
 for line1 in f:
-	w=line1.strip().split('\t')
+	w=line.strip().split('\t')
 	i=0
 	g=open(sys.argv[2])
 	for line2 in g:
